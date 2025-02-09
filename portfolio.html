@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="CSS/site.css">
+    
+    <!-- css.gg -->
+    <link href='https://css.gg/css' rel='stylesheet'>
+    
+    <!-- UNPKG -->
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    
+    <!-- JSDelivr -->
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/avatar/Orlando.jpg" id="photo-profile" class="my-photo">
+        
+                <div>
+                    <h1 class="title">Orlando Yohasim Bautista Mendez</h1>
+                    <div class="badge-profile">Alumno</div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/share/18xx6A2u8c/" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="https://x.com/maxorlando365?t=0zIwU1g77hSacIBk3B3xEw&s=0" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="https://youtube.com/@maxorlando1082?si=0-BLcwoJKaveUbb2" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="ht" target="_blank"><i class="gg-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;17 de Diciembre</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;&nbsp;<a href="mailto: maxorlando365@gmail.com">maxorlando365@gmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52 22 28 37 55 50</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52 22 21 98 92 91</li>
+                    </ul>
+                    <a href="resources/CV_BAUTISTA_MENDEZ_ORLANDO_YOHASIM.pdf" class="btn" id="Download" target="_blank" >Download CV</a>
+                </div>
+            </div>
+        </aside>
+        <section class="resume">
+            <div>
+                <h2 class="title bordered">Portafolio</h2>
+                <div class="portfolio">
+                    <img src="media/imagenes/imagen1.jpeg" alt="" onclick="showImage(this)">
+                    <img src="media/imagenes/imagen2.jpg" alt="" onclick="showImage(this)">
+                    <img src="media/imagenes/imagen3.png" alt="" onclick="showImage(this)">
+                    <img src="media/imagenes/imagen4.jpeg" alt="" onclick="showImage(this)">
+                </div>
+                <div class="modal" id="preview">
+                    <i class="gg-close" id="closeModalIcon" onclick="cerrarModal()"></i>
+                </div>                
+                <br>
+                
+            </div>
+
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="index.html">Acerca de...</a></li>
+                        <li class="nav-item"><a href="portfolio.html">Portafolio</a></li>
+                    </ul>
+                </div>
+            </header>
+            </div>
+        </section>
+    </div>
+    <footer>Autor: Orlando Yohasim Bautista Mendez</footer>
+    <div id="copyright" style="display: none;">2025 Orlando Yohasim Bautista Mendez alias maxorlando</div>
+
+    <script src="JS/site.js"></script>
+</body>
+</html>
